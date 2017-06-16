@@ -19,3 +19,7 @@ h2 {
 #contact_form div input, textarea {
     color: black;
 }
+
+.intro-text{
+    font-family: 'Exo 2', sans-serif;   
+}
