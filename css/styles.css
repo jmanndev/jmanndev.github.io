@@ -1,25 +1,33 @@
+/* Colours:
+Main: #03545C rgb(3, 84, 92)
+Secondary: #090C0C
+Accent: #42DCA3
+Light: #F2F6F7
+Mid: #2D3738
+*/
+
 h2 {
     text-transform: uppercase;
 }
 
 .navbar-custom .navbar-toggle {
-    background-color: rgba(0, 128, 128, 0.2);
+    background-color: rgba(3, 84, 92, 0.2);
 }
 
 
 .navbar-custom.top-nav-collapse div div a {
-    color: black;
+    color: #F2F6F7;
 }
 
 @media (min-width: 768px) {
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(0, 128, 128, 0.3);
-        background-color: white;
+        border-bottom: 1px solid rgba(3, 84, 92, 0.3);
+        background: #03545C;
     }
 }
 
 .navbar-custom .nav li.active a {
-    background-color: rgba(0, 128, 128, 0.3);
+    background-color: rgba(242, 246, 247, 0.3);
 }
 
 
@@ -27,7 +35,7 @@ h2 {
 }
 
 #contact_form div input, textarea {
-    color: black;
+    color: #090C0C;
 }
 
 .intro-text{
@@ -35,11 +43,22 @@ h2 {
 }
 
 body {
-    background-color: white;
-    color: black;
+    background-color: #F2F6F7;
+    color: #090C0C;
     font-family: 'Exo 2', sans-serif;
 }
 
 body a {
-    color: #008080;   
+    color: #03545C;   
+}
+
+
+.intro {
+    color: #F2F6F7;
+    background: #03545C;
+}
+
+.download-section {
+    color: #F2F6F7;
+    background: #03545C;
 }
