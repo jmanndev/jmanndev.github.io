@@ -81,6 +81,9 @@
                         <li>
                             <a class="page-scroll" href="#background">Background</a>
                         </li>
+                        <li>
+                            <a class="page-scroll" href="#contact">Contact</a>
+                        </li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -117,7 +120,7 @@
                     <h2>About</h2>
                     <p>BSc of Information Technology student developer based in Sydney, Australia.</p>
                     <p>Technical support, consulting, app development, hardware installation, jailbreaking, system optimisation, game development, and more.</p>
-                    <p>If you need help setting up a frustrating printer or have any other IT concern, contact me at <a href="mailto:jmanndev@gmail.com">jmanndev@gmail.com</a> and I'll see what I can do.</p>
+                    <p>If you need help setting up a frustrating printer or have any other IT concern, contact me <a class="page-scroll" href="#contact">HERE</a> and I'll see what I can do.</p>
                 </div>
             </div>
         </section>
@@ -148,7 +151,7 @@
                         <div class="col-sm-4">
                             <div class="row">
                                 <div class="highlight-image">
-                                    <i id="icon" class="fa fa-area-chart" style="text-shadow: none; font-size: 80px; color: rgb(198, 212, 255); height: 150px; width: 150px; line-height: 150px; border-radius: 50%; text-align: center; background-color: rgb(173, 113, 70);"></i> 
+                                    <i id="icon" class="fa fa-area-chart" style="text-shadow: none; font-size: 80px; color: #E3E7AF; height: 150px; width: 150px; line-height: 150px; border-radius: 50%; text-align: center; background-color: #BF6816;"></i> 
                                 </div>
                             </div>
                             <div class="row">
@@ -239,17 +242,42 @@
         </section>
 
 
-        <!-- Trim -->
-        <section class="content-section text-center">
+        <!-- Contact section -->
+        <section id="contact" class="content-section text-center">
             <div class="alt-content-section">
                 <div class="container">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h2>Contact</h2>
+                        <form action="https://formspree.io/jmanndev@gmail.com"
+                              method="POST" class="form-horizontal" id="contact-form" >
+                            
+                            <!--Anti scraper-->
+                            <input type="text" name="_gotcha" style="display:none" />
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Your name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="_replyto" class="form-control" id="email" placeholder="Your email" required>
+                            </div>
+
+                            Email Details
+
+                            <div class="form-group">
+                                <input type="text" name="_subject" class="form-control" id="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea rows="5" class="form-control" id="message" placeholder="Message" name="message" required></textarea>
+                            </div>
+                            <input type="submit" class="btn btn-default" value="Send">
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
 
-
         <!-- Footer -->
-        
+
         <footer>
             <div class="container text-center">
                 <p>Copyright &copy; Jonathan Mann 2017</p>
