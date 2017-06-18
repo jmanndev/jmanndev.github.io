@@ -69,7 +69,7 @@ a {
 
 .intro {
     color: #F2F6F7;
-    background: #03545C;
+    background-image: linear-gradient(0deg, #03545C 75%, #1b6e76 100%);
 }
 
 .intro-text.large { 
