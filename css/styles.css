@@ -109,8 +109,6 @@ a {
     -o-background-size: cover;
 }
 
-
-
 @media (min-width: 767px) {
     .content-section {
         padding-top: 250px;
@@ -119,3 +117,23 @@ a {
         padding: 100px 0;
     }
 }
+
+
+.highlight-title {
+    padding: 10px 0 0 0;
+    margin: 0 4px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.highlight-location {
+}
+
+.highlight-date {
+    font-size: 11px;
+    font-style: italic;
+    
+}
+
+
+
