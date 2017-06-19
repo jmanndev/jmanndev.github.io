@@ -20,19 +20,13 @@ h6 {
 
 }
 
-p {
-
-}
-
-@media (min-width: 768px) {
-    p {
-    }
-}
-
 a {
     color: #03545C;  
 }
 
+
+
+/* Navbar CSS */
 .navbar-custom {
 }
 
@@ -57,16 +51,24 @@ a {
 .navbar-custom .nav li.active a:hover {
 }
 
+
 @media (min-width: 768px) {
-    .navbar-custom {}
+    .navbar-custom {
+    }
+
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(3, 84, 92, 0.3);
         background: #03545C;
     }
+
     .navbar-custom.top-nav-collapse {
     }
+
 }
 
+
+
+/* Content Sections CSS */
 .intro {
     color: #F2F6F7;
     background: url(../img/bg.png) bottom center scroll;
@@ -95,18 +97,6 @@ a {
     font-family: 'Exo 2', sans-serif;
 }
 
-
-@media (min-width: 768px) {
-    .intro {
-    }
-
-    .intro .intro-body .brand-heading {
-    }
-
-    .intro .intro-body .intro-text {
-    }
-}
-
 .content-section {
     padding-top: 100px;
 }
@@ -132,6 +122,8 @@ a {
 }
 
 
+
+/* Background Tiles CSS */
 .highlights-grid {
 
 }
@@ -152,8 +144,22 @@ a {
     padding-bottom: 10px;
 }
 
-.highlight-image {
+.highlight-image.large { 
+    display: inherit;
     padding: 10px;
+}
+.highlight-image.small { 
+    display: none; 
+    padding: 10px 0px 0px 0px;
+}
+
+@media (max-width: 767px) {
+    .highlight-image.large { 
+        display: none; 
+    }
+    .highlight-image.small {
+        display: inherit;
+    }
 }
 
 .highlight-image i:hover {
